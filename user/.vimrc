@@ -8,5 +8,5 @@ set autoread
 au BufWinEnter * checktime
 au CursorHold * checktime
 syntax on
-highlight ColumnMarker ctermbg=red guibg=#592929
-call matchadd('ColumnMarker', '\%101v', 100)
+au BufWinEnter * highlight ColumnMarker ctermbg=red guibg=#592929
+au BufWinEnter * call matchadd('ColumnMarker', '\%101v', 100)
