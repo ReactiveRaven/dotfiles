@@ -5,6 +5,7 @@ set softtabstop=4
 set tabstop=4
 set smartindent
 set autoread
+set nowrap
 au BufWinEnter * checktime
 au CursorHold * checktime
 syntax on
