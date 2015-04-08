@@ -11,3 +11,4 @@ au CursorHold * checktime
 syntax on
 au BufWinEnter * highlight ColumnMarker ctermbg=red guibg=#592929
 au BufWinEnter * call matchadd('ColumnMarker', '\%101v', 100)
+set directory=$HOME/.vim/swapfiles//
