@@ -6,6 +6,7 @@ set tabstop=4
 set smartindent
 set autoread
 set nowrap
+set synmaxcol=120
 au BufWinEnter * checktime
 au CursorHold * checktime
 syntax on
