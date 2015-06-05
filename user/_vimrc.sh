@@ -2,5 +2,5 @@
 
 if [ ! -d ~/.vim/swapfiles ];
 then
-    mkdir --parents ~/.vim/swapfiles;
+    mkdir -p ~/.vim/swapfiles;
 fi;
