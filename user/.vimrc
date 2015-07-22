@@ -48,3 +48,4 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
+let g:ctrlp_working_path_mode = ''
