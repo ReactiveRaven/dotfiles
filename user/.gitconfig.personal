@@ -1,0 +1,12 @@
+[core]
+	excludesfile = ~/.gitignore
+
+[user]
+	name = ReactiveRaven (David Godfrey)
+	email = reactiveraven@gmail.com
+
+[merge]
+    conflictstyle = diff3
+
+[push]
+	default = current
