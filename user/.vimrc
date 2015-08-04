@@ -36,6 +36,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tomasr/molokai'
 Plugin 'pangloss/vim-javascript'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'aaronjensen/vim-sass-status'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -49,3 +51,13 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_symbols.space = "\ua0"
 let g:ctrlp_working_path_mode = ''
+let g:ctrlp_custom_ignore = {
+  \ 'dir': '\v(karma-coverage)$'
+  \}
+let g:ctrlp_max_files=0
+set foldmethod=syntax
+set foldlevelstart=3
+nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
+vnoremap <Space> zf
+
+let g:syntastic_javascript_checkers = ['jshint']
