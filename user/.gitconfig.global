@@ -1,0 +1,8 @@
+[core]
+	excludesfile = ~/.gitignore
+
+[merge]
+    conflictstyle = diff3
+
+[push]
+	default = current

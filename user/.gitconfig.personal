@@ -1,12 +1,6 @@
-[core]
-	excludesfile = ~/.gitignore
+[include]
+    path = .gitconfig.global
 
 [user]
 	name = ReactiveRaven (David Godfrey)
 	email = reactiveraven@gmail.com
-
-[merge]
-    conflictstyle = diff3
-
-[push]
-	default = current
